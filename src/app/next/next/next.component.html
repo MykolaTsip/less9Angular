@@ -1,0 +1,21 @@
+<p>next works!</p>
+
+
+<div>
+  {{user | json}}
+</div>
+
+
+<form #myForm="ngForm" (ngSubmit)="save(myForm)">
+  <input type="text"  [(ngModel)]="u.login" #login="ngModel" name="d">
+  <br>
+  <input type="text" [(ngModel)]="u.password" #password="ngModel" name="df">
+  <br>
+  <button>save</button>
+</form>
+
+
+{{u | json}}
+
+<br>
+<a routerLink="/">vdfdvfdvf</a>
